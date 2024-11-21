@@ -61,7 +61,7 @@ export default function SideBar() {
       <div
         className={`fixed top-0 left-0 h-screen bg-white z-40 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out md:translate-x-0 md:relative md:inline-block md:w-fit`}>
+        } transition-transform duration-300 ease-in-out md:translate-x-0 md:fixed md:inline-block md:w-fit`}>
         <div className="pb-6 flex justify-center">
           <img src={loan} alt="Logo" />
         </div>

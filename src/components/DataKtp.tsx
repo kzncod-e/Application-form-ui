@@ -14,7 +14,7 @@ const DataKTPForm = () => {
   ];
 
   return (
-    <div className="bg-[#fff] grid gap-6 shadow-custom-light    p-6">
+    <div className="bg-[#fff] grid gap-6 shadow-custom-light rounded-[5px]    p-6">
       {data.map((el, index) => {
         return (
           <>

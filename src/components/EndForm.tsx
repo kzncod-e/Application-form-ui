@@ -14,7 +14,7 @@ export default function EndForm() {
         <div className="grid border-[1px] border-[#C1C1C1] grid-cols-2 gap-4 p-4">
           {/* Alamat Lengkap */}
           <div className="w-full flex-start text-start  ">
-            <label className="md:w-1/3 text-start text-lg font-semibold text-[#00000] mb-2 md:mb-0">
+            <label className="block text-start text-lg font-semibold text-[#00000] mb-2 ">
               Alamat Lengkap (Jalan, Komplek, RT/RW)
             </label>
             <input
