@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: "/Application-form-ui/",
   plugins: [react()],
+  base: "/Application-form-ui/", // Set to the `homepage` path in package.json
 });
